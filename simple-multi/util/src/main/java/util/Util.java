@@ -8,4 +8,9 @@ public class Util {
         return StringUtils.join(elements);
     }
 
+    // force WPI to infer something
+    public Object getNull() {
+	return null;
+    }
+
 }
